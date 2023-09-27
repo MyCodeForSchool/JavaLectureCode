@@ -5,6 +5,7 @@ public class WhileTrue {
 
         while (true) {
             System.out.println("Hello!");
+            System.out.println("Testing");;
         }
     }
 }
