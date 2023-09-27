@@ -2,8 +2,17 @@ package Lab2Week;
 
 public class OilChange {
     public static void main(String[] args) {
-        for(int mile=153000 ; mile <=174000; mile=mile+3000){
-            System.out.println("Oil change needed at " + mile + " miles.");
+
+        int mileage = 150000;
+        int interval = 3000;
+
+        for(int oilChange = 0 ; oilChange < 8; oilChange++){
+        mileage = mileage + interval;
+            System.out.println("Get oil change at " + mileage + " miles.");
         }
+
+//        for (int miles = mileage; miles < (mileage + 8 * interval); miles += interval) {
+//            System.out.println("Get oil change at " + miles + " miles.");
+//        }
     }
 }
