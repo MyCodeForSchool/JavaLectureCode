@@ -9,7 +9,7 @@ public class HeatingBill {
         //create an array with months - done
         String[] monthNames = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
         //create an array to store bill amounts
-        Double[] billAmts= new Double[12];
+        Double[] billAmts= new Double[monthNames.length];
         //create a variable to sum bill amounts
         double heatingBillSum= 0;
         //create a for loop to gather bill amounts for each month
