@@ -15,7 +15,7 @@ public class ForLoopUserInput {
         }
 
         testScoreAverage = testScoreSum / numberOfTests;
-        System.out.println("Total test score is " + testScoreSum + " and the average test score is " + testScoreAverage);
+        System.out.println("Total test score is " + testScoreSum + " and the aforverage test score is " + testScoreAverage);
 
     }
 
