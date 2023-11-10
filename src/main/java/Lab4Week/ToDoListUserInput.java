@@ -4,7 +4,7 @@ import java.util.List;
 
 import static input.InputUtils.stringInput;
 
-public class ArrayList {
+public class ToDoListUserInput {
     public static void main(String[] args) {
 
         List<String> todoList = new java.util.ArrayList<>();

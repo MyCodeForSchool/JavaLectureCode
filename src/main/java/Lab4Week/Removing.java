@@ -1,6 +1,7 @@
 package Lab4Week;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Removing {
@@ -12,16 +13,19 @@ public class Removing {
         classNames.add("Project Management");
         classNames.add("Info Tech Concepts");
 
-        for (String name: classNames) { //enhanced for loop
+
+        //enhanced for loop; use when not modifying the data
+        for (String name: classNames) {
             System.out.println(name);
 
         }
 
         System.out.println();
 
+
+        //classic for loop; contains index if needed as well as data
         for (int i = 0; i < classNames.size(); i++) {
-            //classic for loop; contains index if needed as well as data
-            System.out.println(classNames.get(i));
+             System.out.println(classNames.get(i));
         }
 
 //        for (int i = 0; i < classNames.size(); i++) {
@@ -30,7 +34,7 @@ public class Removing {
 //        }
         //this code causes the list to be zeroed out
 //        System.out.println();
-//        while (!classNames.isEmpty()) {
+//        while (!classNames.isEmpty()) { //while classNames is not empty
 //            String name = classNames.remove(0);
 //            System.out.println(name);
 //        }
@@ -62,10 +66,13 @@ public class Removing {
 
         System.out.println(classNames.size());
 
-        classNames.clear();
+//        classNames.clear();
+//        System.out.println(classNames);
+//        System.out.println(classNames.size());
+//        System.out.println(classNames.isEmpty());
+
+        Collections.sort(classNames);
         System.out.println(classNames);
-        System.out.println(classNames.size());
-        System.out.println(classNames.isEmpty());
 
     }
 }

@@ -27,8 +27,6 @@ public class AnimalCollections {
         Collections.reverse(animals); //reverse order of the list
         System.out.println("Reverse order :" + animals);
 
-
-
         Collections.shuffle(animals); //put elements in random order
         System.out.println("Shuffled: " + animals);
 
