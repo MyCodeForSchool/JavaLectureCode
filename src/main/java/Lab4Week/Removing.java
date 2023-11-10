@@ -14,6 +14,7 @@ public class Removing {
 
         for (String name: classNames) { //enhanced for loop
             System.out.println(name);
+
         }
 
         System.out.println();
@@ -33,6 +34,9 @@ public class Removing {
 //            String name = classNames.remove(0);
 //            System.out.println(name);
 //        }
+
+//        classCodes.remove (2);//defaults to index of 2
+//        classCodes.remove (Integer.valueOf(1250));  //use this to remove an int
 
         System.out.println(classNames);
 
