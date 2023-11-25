@@ -39,8 +39,8 @@ public class States {
                 "This will loop over the keys and give you the values.");
         String searchAbbrev = "MI";
         for (String stateName: stateAbbrev.keySet()) {
-            System.out.println(stateName);
-            System.out.println(stateAbbrev.get(stateName));
+        //    System.out.println(stateName);
+        //    System.out.println(stateAbbrev.get(stateName));
             String abbrev = stateAbbrev.get(stateName);
             if (abbrev.equals(searchAbbrev)) {
                 System.out.println("Found it! The state for " + searchAbbrev + " is " + stateName);
